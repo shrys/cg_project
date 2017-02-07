@@ -7,11 +7,11 @@ cm="$GIT_COMMITTER_EMAIL"
 
 if [ "$GIT_COMMITTER_EMAIL" = "none@none" ]
 then
-    cm="shrysghnt@gmail.com"
+    cm="shrys@github.com"
 fi
 if [ "$GIT_AUTHOR_EMAIL" = "none@none" ]
 then
-    am="shrysghnt@gmail.com"
+    am="shrys@github.com"
 fi
 
 export GIT_AUTHOR_EMAIL="$am"
